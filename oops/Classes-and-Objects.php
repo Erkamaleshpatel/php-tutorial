@@ -20,7 +20,7 @@ class student{
 $data = new student();
 $data->set_name("Kamalesh");
 $data->set_class("B.tech");
-echo $data->get_name();
+echo $data->get_name()."<br>";
 echo $data->get_class();
 
 ?>
